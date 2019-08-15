@@ -6,6 +6,11 @@ class ExampleController extends CController {
         parent::initialize();
     }
     
-    public function indexAction(){ }
+    public function indexAction(){ 
+
+        $this->setTheme('main');
+        $this->setLayout('partials/main');
+        
+    }
 
 }

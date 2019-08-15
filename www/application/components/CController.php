@@ -49,12 +49,12 @@ class CController extends Controller {
     
     /* เลือก Theme */
     protected function setTheme($theme){
-        $this->view->setLayoutsDir(sprintf('%s/%s/', $this->config->theme->themesDir, $theme));
+        $this->view->setLayoutsDir(sprintf('../../themes/%s/%s/', $this->config->theme->themesDir, $theme));
     }
     
     /* เลือก Layout */
     protected function setLayout($layout){
-        $this->view->setTemplateAfter('layouts/' . $layout);
+        $this->view->setTemplateAfter('layouts/../' . $layout);
     }
    
     /* ปรับแต่งลิ้งค์ assets */

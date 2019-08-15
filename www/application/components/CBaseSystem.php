@@ -9,8 +9,8 @@ class CBaseSystem extends Component {
      * =========================================================== */
     
     public static $version = '1.0.0';
-    public static $lastUpdate = '2018-02-03 00:00:00';
-    public static $pageTitle = 'Web Application | Phalcon Framework 3.2.0';
+    public static $lastUpdate = '2018-08-15 16:48';
+    public static $pageTitle = 'Web Application | Phalcon Framework 3.4.4';
     
     public static $baseUrl  = 'http://localhost';
     public static $urlImage = 'http://localhost/images/';

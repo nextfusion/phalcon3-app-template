@@ -2,11 +2,16 @@
 
 class MainController extends CController {
 
-    public function initialize(){
+    public function initialize() {
         parent::initialize();
         $this->setAssetsBase();
     }
     
-    public function indexAction(){}
+    public function indexAction() {
+
+        $this->setTheme('main');
+        $this->setLayout('partials/main');
+
+     }
 
 }
